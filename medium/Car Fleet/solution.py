@@ -31,5 +31,5 @@ class Solution(object):
 
         # Time complexity: O(nlogn)
         #   - sorting
-        # Space complexity:
+        # Space complexity: O(n)
         #   - A dictionary to map position / map
