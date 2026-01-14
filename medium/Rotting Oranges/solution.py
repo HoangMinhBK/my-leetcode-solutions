@@ -53,7 +53,7 @@ class Solution(object):
             ):
                 queue.append((i, j - 1, time_elapsed + 1))
                 visited.add(str(i) + "-" + str(j - 1))
-            # if bottom fresh
+            # if right fresh
             if (
                 j + 1 < len(grid[0])
                 and grid[i][j + 1] == 1
